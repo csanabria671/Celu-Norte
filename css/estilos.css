@@ -3,3 +3,88 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.icono{
+    width:100px;
+    margin: 5px;
+}
+.header-footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);
+    a{
+        margin: 10px;
+        color: white;
+        white-space: nowrap;
+    }
+}
+.menu-ingresar a{
+    color: gray;
+}
+.row{
+    width: 100%;
+    max-width: 1110px;
+    margin: 56px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 10px;
+  }
+  
+  .footer ul {
+    margin: 5px;
+    list-style: none;
+    
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer li :hover{
+    color: grey;
+  }
+  .icono-p{
+    width:30px;
+  }
+  .header-footer li :hover{
+    color: grey;
+  }
+  @media (max-width: 700px) {
+    .media-form {
+      width: 100%;
+    }
+  
+    .tamanio-tarjeta {
+      width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+  }
+  .tamanio-tarjeta {
+    width: 18rem;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .media-form {
+    width: 25%;
+  }
