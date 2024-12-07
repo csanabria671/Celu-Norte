@@ -38,6 +38,8 @@
     align-items: center;
     background-color: aquamarine;
     padding: 10px;
+    position: relative;
+    bottom: 0;
   }
   
   .footer ul {
